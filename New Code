@@ -1,0 +1,4 @@
+- name: Run unit tests with nose
+  run: |
+    pip install nose
+    nosetests --with-coverage
